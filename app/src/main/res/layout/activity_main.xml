@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="16dp"
+    tools:context="com.gpasalis.courtcounter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- COLUMN 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="24dp">
+
+            <!-- child views -->
+            <TextView
+
+                android:id="@+id/team_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ομάδα Α"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/score_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="24dp"
+                android:paddingTop="16dp"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/a_plus_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorAccent"
+                android:text="+3 ποντοι"
+                android:textColor="@color/white"
+                android:onClick="aPlus3" />
+
+            <Button
+                android:id="@+id/a_plus_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:text="+2 ποντοι"
+                android:textColor="@color/white"
+                android:onClick="aPlus2" />
+
+            <Button
+                android:id="@+id/a_plus_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:text="ελευθερη βολη"
+                android:textColor="@color/white"
+                android:onClick="aPlus1" />
+        </LinearLayout>
+
+        <!-- COLUMN 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="24dp">
+            <!-- child views -->
+            <TextView
+
+                android:id="@+id/team_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ομαδα B"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/score_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="24dp"
+                android:paddingTop="16dp"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/b_plus_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorAccent"
+                android:text="+3 ποντοι"
+                android:textColor="@color/white"
+                android:onClick="bPlus3" />
+
+            <Button
+                android:id="@+id/b_plus_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:text="+2 ποντοι"
+                android:textColor="@color/white"
+                android:onClick="bPlus2"/>
+
+            <Button
+                android:id="@+id/b_plus_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:text="ελευθερη βολη"
+                android:textColor="@color/white"
+                android:onClick="bPlus1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@color/colorAccent"
+            android:text="καθαρισμος"
+            android:textColor="@color/white"
+            android:onClick="reset"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
