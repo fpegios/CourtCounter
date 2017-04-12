@@ -1,0 +1,15 @@
+Develop an app for counting the score of a basketball game. 
+The UI of the app should be similar to the following one. 
+
+In particular:
+You should definitely implement the specific "red lines" shown below, 
+i.e. you should make sure that your app adheres to the particular whitespace "dp" values shown below. 
+  
+Don't worry about having or not the three dots at the top right.
+You should take advantage of what we learned in the 2nd lecture, in terms of styles and themes, 
+i.e. you should make use of styles and themes in your app. It is Ok if you choose different 
+primary/secondary colors based on your own preferences. 
+
+It is Ok, if you add a background image, or make other stylistic changes to the app.
+
+You should localize the app for the Greek language in addition to the default english one.

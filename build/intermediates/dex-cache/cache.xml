@@ -1,3 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\.android\build-cache\8fedfc081585117e709431922e146eab24fe13ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\classes_f62ff745588720d4934ff4c89c43b96ece5e61bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\.android\build-cache\f73f5e62be42a113bde015a059428c2357f62fb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\classes_07757be8739e1e20e4e70f6043bc889978de657b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\.android\build-cache\c80fc47ecbed31a4df32578cd5e93649ba1551b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\classes_3235e08712959f5d323e212f24ad74c60d06f7ae.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddc7bb0f9cea3e2a5d2680a3331dfe4c72e88bf3">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ce158b5ba3b5335a19bbdae8fbf86f4869c2dd1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6a1116ab6fd3ee635d08a3dd260e67b5499cd9f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_200c677c936653f713cfe893ffd88bbeb017ceb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\.android\build-cache\f73f5e62be42a113bde015a059428c2357f62fb7\output\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_a0d0f50d76ae7a506a865e4d847bc1a11aa727c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fpegios92\.android\build-cache\a5998a1be1d1f62dac51e47607bb36d09d66d6ac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\fpegios92\Downloads\CourtCounter\app\build\intermediates\pre-dexed\debug\classes_500761889e14d51bfd431b1558ce9c647126b338.jar" />
+    </item>
+
+</items>

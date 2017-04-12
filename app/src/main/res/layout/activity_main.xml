@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Ομάδα Α"
+                android:text="Team Α"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/black" />
 
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorAccent"
-                android:text="+3 ποντοι"
+                android:text="+3 points"
                 android:textColor="@color/white"
                 android:onClick="aPlus3" />
 
@@ -63,7 +63,7 @@
                 android:layout_gravity="fill_horizontal"
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
-                android:text="+2 ποντοι"
+                android:text="+2 points"
                 android:textColor="@color/white"
                 android:onClick="aPlus2" />
 
@@ -74,7 +74,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
-                android:text="ελευθερη βολη"
+                android:text="free shot"
                 android:textColor="@color/white"
                 android:onClick="aPlus1" />
         </LinearLayout>
@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Ομαδα B"
+                android:text="Team B"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/black" />
 
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@color/colorAccent"
-                android:text="+3 ποντοι"
+                android:text="+3 points"
                 android:textColor="@color/white"
                 android:onClick="bPlus3" />
 
@@ -126,7 +126,7 @@
                 android:layout_gravity="fill_horizontal"
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
-                android:text="+2 ποντοι"
+                android:text="+2 points"
                 android:textColor="@color/white"
                 android:onClick="bPlus2"/>
 
@@ -137,7 +137,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
-                android:text="ελευθερη βολη"
+                android:text="free shot"
                 android:textColor="@color/white"
                 android:onClick="bPlus1"/>
 
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:background="@color/colorAccent"
-            android:text="καθαρισμος"
+            android:text="Clear"
             android:textColor="@color/white"
             android:onClick="reset"/>
 
